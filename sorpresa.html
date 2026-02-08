@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Ups!</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Impact', Arial Black, sans-serif; /* Fuente gruesa e impactante */
+            background-color: #f0f0f0; /* Fondo gris claro */
+            /* Para centrar el texto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mensaje-gigante {
+            font-size: 5rem; /* Tamaño muy grande */
+            color: #d32f2f; /* Rojo regaño */
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Sombra para darle profundidad */
+            padding: 20px;
+        }
+
+        /* Ajuste para celulares */
+        @media (max-width: 600px) {
+            .mensaje-gigante {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="mensaje-gigante">¡No seas cochino!</h1>
+
+</body>
+</html>
+
