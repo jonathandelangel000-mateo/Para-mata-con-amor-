@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Exclusivo</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            /* Configuración de la imagen de fondo */
+            background-image: url('sxs.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; /* Hace que cubra toda la pantalla */
+            /* Para centrar el botón */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Estilo del botón transparente */
+        .boton-transparente {
+            /* Fondo blanco con 50% de transparencia (0.5) */
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #000; /* Texto negro */
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            text-decoration: none; /* Quita el subrayado del enlace */
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            transition: 0.3s; /* Efecto suave al pasar el mouse */
+            backdrop-filter: blur(5px); /* Un toque moderno de desenfoque detrás */
+        }
+
+        .boton-transparente:hover {
+            /* Se vuelve menos transparente al pasar el mouse */
+            background-color: rgba(255, 255, 255, 0.8);
+            transform: scale(1.05); /* Crece un poquito */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="sorpresa.html" class="boton-transparente">Disfruta ya</a>
+
+</body>
+</html>
